@@ -1,8 +1,8 @@
-FROM dictybase/modware-loader:devel
+FROM dictybase/bioperl
 MAINTAINER Siddhartha Basu <siddhartha-basu@northwestern.edu>
 
 
-ENV GOLANG_VERSION 1.4.1
+ENV GOLANG_VERSION 1.4.2
 
 RUN curl -sSL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz \
 		| tar -v -C /usr/src -xz
